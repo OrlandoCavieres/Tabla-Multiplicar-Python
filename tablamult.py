@@ -8,7 +8,7 @@ def crearTabla(numero: int):
                       multiplicar.
     """
     for factor in range(1,11):
-        print(f"{numero:^8} X {factor:>2} = {numero*factor}")
+        print(f"{numero} X {factor:>2} = {numero*factor}")
     print()
 
 def esEntero(numero):
@@ -37,7 +37,6 @@ def main():
             crearTabla(int(multiplo))
         else:
             print("\nIngrese un numero entero")
-
 
 if __name__ == '__main__':
     main()
